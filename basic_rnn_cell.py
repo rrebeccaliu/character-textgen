@@ -19,7 +19,7 @@ class BasicRNNCell(nn.Module):
         self.hidden_size = hidden_size
 
         # create and initialize parameters W, V, b as described in the text.
-        # remember that the parameters are instance variables
+   
 
         # W, the input weights matrix has size (n x m) where n is
         # the number of input features and m is the hidden size
