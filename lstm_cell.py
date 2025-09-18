@@ -18,7 +18,6 @@ class LSTMCell(nn.Module):
         self.hidden_size = hidden_size
 
         # create and initialize parameters W, V, b as described in the text.
-        # remember that the parameters are instance variables
         # W, the input weights matrix has size (n x (4 * m)) where n is
         # the number of input features and m is the hidden size
         # V, the hidden state weights matrix has size (m, (4 * m))
